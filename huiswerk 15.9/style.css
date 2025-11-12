@@ -1,0 +1,198 @@
+
+header{
+    background-color: beige;
+   text-align: center;
+   width: auto;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom: 1px;
+   margin-top: 0;
+}
+
+#lichaam{
+   background-color: skyblue;
+}
+
+.menu{
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   gap: 5px;
+
+}
+
+.menu a{
+   display: inline-block;
+   width: 150px;
+   height: 30px;
+   color: white;
+   text-decoration: none;
+   text-align: center;
+}
+
+.knop-opleidingen{
+   background-color: blue;
+   padding: 12px;
+}
+.knop-opleidingen:hover{
+   background-color: white;
+   color: blue;
+}
+    
+.knop-contact{
+   background-color: black;
+   padding: 12px;
+}
+.knop-contact:hover{
+   background-color: white;
+   color: black;
+}    
+
+.welkom-tekst{
+   display: block;
+   width: 100px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 50px;
+   letter-spacing: 2px;
+   color: red;
+   text-shadow: 0 0 8px rgba(255, 100, 100, 0.8); 
+   margin-top: 50px;
+   margin-left: 850px;
+}
+
+.inleidende-tekst{
+   display: block;
+   width: 400px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   margin-left: 250px;
+   color: black;
+   background-color: white;
+   border-radius: 18px;
+   padding: 5px 15px 5px 15px;
+}
+
+.mijn-woonplek{
+   width: 250px;
+   height: 250px;
+   position: absolute;
+   top: 150px;
+   left: 1400px;
+   margin: 0 10px;
+   border-radius: 10px;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   gap: 150px;
+}
+
+table{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   background-color: yellow;
+   border: 3px solid black;
+   text-align: center;
+   border-radius: 10px;
+}
+
+caption{
+   font-style: italic;
+   font-weight: bold;
+}
+
+thead{
+   font-weight: bold;
+}
+
+td{
+   height: 50px;
+   width: 100px;
+   border:1px solid black;
+   padding: 5px;
+}
+
+form{
+   width: 510px;
+   height: 400px;
+   text-align: center;
+   vertical-align: auto;
+   margin: 0 10px;
+   padding: 6px;
+   background-color: beige;
+}
+
+#tabel{
+   width: 800px;
+   height: 800px;
+   border: none;
+}
+
+#contact{
+   width: 540px;
+   height: 400px;
+   margin-top: 150px;
+   border: none;
+}
+
+input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    margin: 15px 0px;
+    width: 500px;
+   box-sizing: border-box;
+}
+
+textarea{
+    height: 200px;
+}
+ 
+button:active{
+    background-color: red;
+    color: yellow;
+}
+
+footer{
+   background-color: black;
+   color: white;
+   padding: 5px 5px;
+   text-align: center;
+   font-family: "Segoe UI", Arial, sans-serif;
+   margin-bottom: 200px;
+}
+
+footer h2 {
+   margin-bottom: 10px;
+   font-size: 16px;
+   color: white;
+}
+
+footer p {
+   margin: 5px 0;
+   font-size: 16px;
+}
+
+footer a {
+   color: cornflowerblue;
+   text-decoration: none;
+}
+
+footer a:hover {
+   text-decoration: underline;
+}
+
+.footer-container {
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.divider {
+   height: 1px;
+   background-color: grey;
+   margin: 20px 0;
+}
+
+small {
+   color: white;
+   font-size: 10px;
+}
