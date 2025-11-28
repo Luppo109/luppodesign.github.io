@@ -1,0 +1,224 @@
+
+
+
+
+
+body{
+    background-color: yellow;
+}
+@media only screen and (min-width: 768px) {
+body{
+    background-color: beige;
+}
+}
+
+
+header {
+    display: block;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-image: url(afbeeldingen/Borgercompagnie.jpeg);
+    filter: contrast(100%);
+    background-size: cover;
+    background-position: center;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+h1 {
+    display: inline-block;
+     font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.3em;
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+[class*="col-"] {float: left;
+padding: 20px;}
+
+
+
+
+.col-2 {
+    width: 16.66%;
+}
+.col-9 {
+    width: 75%;
+}
+
+#een {
+    display: inline-block;
+    background-color: cyan;
+    min-height: 300px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+
+.wijsheden {
+    font-style: italic;
+}
+
+li {
+    margin-top: 5px;
+}
+
+
+#twee {
+    display: block;
+    background-color: lightgreen;
+    height: 450px;
+    margin-top: 30px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.museum {
+    display: block;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted black;
+    
+
+}
+
+
+.zweefvliegveld {
+    display: block;
+    height: 50%;
+    margin-top: 20px;
+    
+    
+}
+
+
+.bezienswaardigheden {
+    font-style: italic;
+}
+
+
+
+
+
+
+img {
+    display: block;
+    float: right;
+    margin-right: 30px;
+    margin-left: 10px;
+    width: 200px;
+    height: 150px;
+    border: 3px solid white;
+}
+
+#museumBoerma:hover {
+    transform: scale(1.8);
+    transition: transform 2s ease;
+    transition-delay: 0.5s;
+}
+
+#NNZC:hover {
+    transform: rotateX(180deg);
+    transition-delay: 1s;
+    transition-duration: 3s;
+    
+}
+
+
+footer {
+
+    background-color: black;
+    height: 100px;
+    vertical-align: bottom;
+    clear: left;
+   color: white;
+   padding: 5px 5px;
+   text-align: center;
+   margin-bottom: 10px;
+   font-family: "Segoe UI", Arial, sans-serif;
+
+}
+
+
+
+footer h2 {
+   margin-top: 0;
+   margin-bottom: 10px;
+   font-size: 10px;
+   color: white;
+}
+
+footer p {
+   margin: 5px 0;
+   font-size: 10px;
+}
+
+footer a {
+   color: cornflowerblue;
+   text-decoration: none;
+}
+
+footer a:hover {
+   text-decoration: underline;
+}
+
+.footer-container {
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.divider {
+   height: 1px;
+   background-color: grey;
+   margin: 5px 0;
+}
+
+small {
+   color: white;
+   font-size: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
