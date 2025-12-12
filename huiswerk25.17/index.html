@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap-CSS -->
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+        crossorigin="anonymous">
+
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <title>huiswerk 25.17</title>
+
+    <script
+    src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript">
+        
+        $(document).ready(function() {
+    $('#knop').click(function() {
+        var voornaam = $('#voornaam').val().trim();
+        $('#groet').text('Beste ' + voornaam + ', bedankt voor je steun tijdens mijn studie.');
+        $('#groet').show();  
+    });
+     $("#resultaat").on("click", function () {
+    const waarde = parseFloat($("#cijfer").val());
+    let boodschap = "";
+        if (waarde < 5.5) {
+        boodschap = "Nog even oefenen!";
+    } else if (waarde < 7) {
+        boodschap = "Redelijk, maar kan beter.";
+    } else if (waarde < 9) {
+        boodschap = "Goed gedaan!";
+    } else {
+        boodschap = "Uitstekend werk!";
+    }
+
+    $("#tekst").text(boodschap).show();
+    });
+    });     
+    </script>
+    
+    </head>
+
+    <body onload="window.alert('Welkom')">
+
+        <noscript>
+        Om deze website optimaal te gebruiken is het noodzakelijk om Javascript te activeren.
+        </noscript>
+
+       <form id="formulier">
+        <label for="voornaam">Vul je voornaam in:</label>
+        <input type="text" id="voornaam" placeholder="Voornaam">
+        <input id="knop" name="knop" type="button" value="Klik op deze knop">
+        </form> 
+
+        <div id="cijferContainer">
+            <label for="cijfer" style="margin:0;">Kies een cijfer voor mijn huiswerk:</label>
+            <input type="number" id="cijfer" min="1" max="10" step="0.5" value="6.0">
+            <button id="resultaat" type="button">Klik op deze knop</button>
+            <p id="tekst"></p>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p id="groet" style="display:none;">Beste ???, bedankt voor je steun tijdens mijn studie.</p>
+                    <img src="afbeeldingen/kerstgroet.jpg" class="kerstgroet" alt="kerstgroet" title="kerstgroet">
+                </div>
+            </div>
+        </div>
+    </body>
+
+
+</html>
